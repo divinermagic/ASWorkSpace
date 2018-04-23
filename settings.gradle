@@ -1,1 +1,1 @@
-include ':app', ':app', ':test', ':youkumenu', ':viewpager'
+include ':app', ':app', ':test', ':youkumenu', ':viewpager', ':json'

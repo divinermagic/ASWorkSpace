@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Json</string>
+    <string name="setPhone">请输入电话号码:</string>
+</resources>
