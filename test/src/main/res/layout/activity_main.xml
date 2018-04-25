@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
-        android:text="one"
         android:id="@+id/btn_one"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="设备相关工具类" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备系统版本号" />
+
+    <Button
+        android:id="@+id/btn_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备系统版本码" />
+
+    <Button
+        android:id="@+id/btn_f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备 MAC 地址" />
+
+    <Button
+        android:id="@+id/btn_fi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备厂商" />
+
+</LinearLayout>
